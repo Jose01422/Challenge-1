@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="alura.png">
+  <title>Encriptador de texto</title>
+</head>
+<body>
+  <header>
+    <h1>Encriptador</h1>
+  </header>
+  <div class="container">
+    <div class="section left">
+      <div class="box">
+        <h2 class="title1">Texto inicial</h2>
+        <textarea id="inputText" class="textarea"></textarea>
+      </div>
+      <button id="encryptButton" class="buttone">Encriptar</button>
+      <button id="copyButton" class="copy-button">Copiar</button>
+      <div class="warning">
+        <div class="warningAlert">
+            <img src="exclamation.png" id="image" alt="advertencia">
+        </div>
+        <div class="alert">Solo letras minúsculas y sin acentos</div>
+      </div>
+      
+    </div>
+    <div class="section right">
+      <div class="box2">
+        <h2 class="title2">Texto final</h2>
+        <textarea id="outputText" class="textarea"></textarea>
+      </div>
+      <button id="decryptButton" class="buttond">Desencriptar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>José Brandon Martínez Chacón</p>
+    <div class="redes sociales">
+      <a href="https://github.com/Jose01422" target="_blank"><i class="fa fa-github-square" aria-hidden="true" id="github"></i></a>
+      <a href="https://www.linkedin.com/in/jbrandonmartinezch/" target="_blank"><i class="fa fa-linkedin-square" id="linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
